@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Html</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 style="background-color:lightslategrey; text-align: center;color: white;padding: 4px,0px;">HTML Part Learn</h1>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="Form.html">Form</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav><br>
+    <h2>Now learn The HTML Form</h2> 
+    <p><strong> Form Attributes:</strong> Action;&nbsp;&nbsp;Target;&nbsp;&nbsp;
+        <mark>Autocomplete:</mark> on/off;     <b>Method:</b> Post</p> 
+            <div>
+                <h3>&Star;The syntex of form:</h3> 
+                    &lt;form&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &lt;fieldset&gt;  <br> 
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &lt;legend&gt; &nbsp;&nbsp; &nbsp;  &lt;legend&gt;  <br> 
+                    &nbsp; &nbsp; &nbsp; &lt;fieldset&gt; <br> 
+                    &lt;form&gt; <br>
+            </div>
+            <div>
+                <h3> <strong><mark>&Star; &Square; HTML Form Attributes:</mark></strong></h3>
+                <ol>
+                    <li>Action</li>
+                    <li>Method</li>
+                    <li>Autocomplete</li>
+                    <li>Target</li>
+                    <li>Novalidate</li>
+                </ol>
+            </div>
+     
+     <div>
+         <h3><b> &Star; <mark>Types of Inputs:</mark> </b></h3>
+         <ol>
+             <li>Button</li>
+             <li>Checkbox</li>
+             <li>Color</li>
+             <li>date</li>
+             <li>datetime-local</li>
+             <li>e-mail</li>
+             <li>file</li>
+             <li>hidden : <strong> The hidden field is not shown to the user, but the data is sent when the form is submitted.</strong></li>
+             <li>image</li>
+             <li>month</li>
+             <li>number</li>
+             <li>password</li>
+             <li>Reset</li>
+             <li>Radio</li>
+             <li>Range</li>
+             <li>search</li>
+             <li>submit</li>
+             <li>time</li>
+             <li>text</li>
+             <li>tel</li>
+             <li>url</li>
+             <li>week</li>
+         </ol>
+     </div>
+     <div>
+         <h3> <strong><mark>&Star; &Square; HTML Input Attributes:</mark></strong></h3>
+         <ol>
+             <li>Auto focus</li>
+             <li>Autocomplete:---&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;on/off.</li>
+             <li>Disable</li>
+             <li>Hight & width: &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<em>For only Image.</em></li>
+             <li>List: &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<em>For only  Datalist.</em></li>
+             <li>multiple:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;:<em>For only  e-mail & file.</em> </li>
+             <li>maxlength.</li>
+             <li>Min & Max.</li>
+             <li>Placeholder.</li>
+             <li>Pattern</li>
+             <li>Readonly</li>
+             <li>Required</li>
+             <li>Size.</li>
+             <li>Step</li>
+             <li>Value</li>
+         </ol>
+     </div>
+     <form action="atiq.php">
+        <fieldset>
+            <legend style="text-align: center;color:red">Learn HTML Form</legend>
+            <label for="fname" style="width: 15%;">First Name &starf;:</label>
+            <input type="text" style="width: 80%;" placeholder="input first name" required maxlength="16"><br><br>
+            
+            <label for="fname" style="width: 15%;">Last Name:</label>
+            <input type="text" style="width: 80%;" value=" Islam" readonly><br><br>
+            
+            <label for="fname" style="width: 15%;">E-mail:</label>
+            <input type="email" style="width: 80%;" autofocus><br><br>
+            
+            <label for="fname" style="width: 15%;">password:</label>
+            <input type="password" style="width: 80%;"><br><br>
+
+            <label for="fname" style="width: 15%;">Number:</label>
+            <input type="number" style="width: 80%;" step="3" min="9" max="25" placeholder="put number between 9 to 25"><br><br>
+                <div>
+                        <h3>Checkbox Type Input:</h3>
+                        <p>Choose your Favorite Vehicle:</p>
+                        <input type="checkbox" id="b1" name="b1" value="bike">
+                        <label for="b1" >Bike.</label><br>
+                        <input type="checkbox" id="b2" name="b2" value="car">
+                        <label for="b1" >Car.</label><br>
+                        <input type="checkbox" id="b3" name="b3" value="truck">
+                        <label for="b1" >Truck.</label><br><br>
+                        <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <h3>Radio type Input</h3>
+                    <p>Choose your Favorite District:</p>
+                        <input type="radio" id="b1" name="district" value="dinajpur">
+                        <label for="b1" >Dinajpur.</label><br>
+                        <input type="radio" id="b2" name="district" value="thakurgong">
+                        <label for="b1" >Thakurgong.</label><br>
+                        <input type="radio" id="b3" name="district" value="rangpur">
+                        <label for="b1" >Rangpur.</label><br><br>
+                        <input type="submit" value="Submit">
+                        <p><strong>&star; Main difference between <q>radio</q> & <q>Checkbox</q> is a user select ZERO or multiple  options  in Checkbox but only one in radio by <em><mark>Diffinig same name of radios option</mark></em> &star;</strong></p>
+                </div>
+
+                <div>
+                    <label for="color">Choose your Favorite Color:</label>
+                    <input type="color" id="color" name="color">
+                    <input type="submit"><br><br>
+                    
+                    <label for="color">Select  your Birth-day:</label>
+                    <input type="date" id="date" name="date">
+                    <input type="submit"><br><br>
+                    <label for="date">Select  your Birth-day & time:</label>
+                    <input type="datetime-local" id="date" name="date" placeholder="datetime input">
+                    <input type="submit"><br><br>
+                    
+                    <label for="file">Choose  your File:</label>
+                    <input type="file" id="file" name="file" multiple>
+                    <input type="submit"><br><br>
+                    
+                    <label for="file">Select Hight(Between 0 to 50):</label>
+                    <input type="range" id="range" name="range" min="0" max="50">
+                    <input type="submit"><br><br>
+
+                    <label for="hiden">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder=" here roll number is hidden">
+                    <input type="hidden" id="range" name="range" value="1234">
+                    <input type="submit"><br><br>
+
+                    <label for="image">Image Type Input:</label>
+                    <input type="image" alt="submit" src="logo.jpg" height="48px" width="48px">
+
+                    <label for="car">Select Your Favorite Car</label>
+                    <select name="car" id="car" size="1" >
+
+                        <option value="volvo">volvo</option>
+                        <option value="maruti">Maruti</option>
+                        <option value="bmw" selected>BMW</option>
+                        <option value="corolla">Corolla</option>
+                    </select>
+
+                    <label for="gsearch">Site Search :</label>
+                    <input type="search" name="gsearch" > <br><br>
+     
+                     <input type="button" onclick="alart('Hello World')" value="Click me button" style="background-color: #00ff86; padding: 5px; border-radius: 5px; font-size: larger; font-weight: bolder;cursor: pointer;">
+                    
+                     <input type="submit" value="Submit" style="background-color: #00ff86; padding: 5px; border-radius: 5px; font-size: larger; font-weight: bolder; cursor: pointer;">
+                     
+                </div>
+        </fieldset>
+     </form>
+    
+    <hr><hr>
+    <div>
+        <p><strong>Video Code format: </strong> &lt;video height="320px" width="240px" controls &gt;<br> &lt;
+            source src="funny.mp4" type="vedio/mp4"&gt <br>
+             &lt;/video&gt</p>
+
+        <video width="320px" height="240px" controls>
+            <source src="vv.mp4" type="video/mp4"> 
+            this vedio not supported
+        </video>
+
+        <video width="320px" height="240px" controls>
+            <source src="funny.mp4" type="video/mp4"> 
+            this vedio not supported
+        </video>
+
+        <iframe width="320px" height="240px" 
+        src="https://www.youtube.com/embed/Z3H6boSRSWw" title="YouTube video player"  controls;></iframe>
+
+     
+
+    </div>
+</body>
+</html>
