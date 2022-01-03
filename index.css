@@ -28,8 +28,9 @@ margin-left: 10px;
   }
 
  #navbar li a:hover{
-    background-color: violet;
+    background-color: rgb(130, 238, 139);
   }
+  
   h2{
       color: peru;
       text-align: center;
